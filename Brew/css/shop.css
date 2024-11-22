@@ -1,0 +1,50 @@
+.buycard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .buycard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%; 
+    margin: 10px;
+  }
+  
+  .buycard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .buycard-img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .buycard-title, .buycard-price, .buycard-description {
+    padding: 0 16px;
+  }
+  
+  .buycard-button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #8ba888;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .buycard-button:hover {
+    opacity: 0.7;
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 600px) {
+    .buycard {
+      width: 100%;
+    }
+  }
+  

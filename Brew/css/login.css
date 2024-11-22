@@ -1,0 +1,86 @@
+
+.auth-sections {
+  max-width: 90%;
+  margin: 5rem auto;
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tablinks{
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #8ba888;
+  color: #fff;
+}
+
+
+.tab {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #8ba888;
+  font-size: 16px;
+}
+
+.tab button {
+  background-color: #B19CD9;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.tab button:hover,
+.tab button.active {
+  background-color: #5d5491;
+}
+
+.tabcontent {
+  display: none;
+  padding: 1rem;
+    color: black; 
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #5d5491;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #8ba888;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #8ba888;
+}
